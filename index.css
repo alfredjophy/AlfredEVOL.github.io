@@ -19,3 +19,8 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.inverted-svg{
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+}
