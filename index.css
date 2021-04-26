@@ -2,3 +2,17 @@ body {
   background-color: black;
   color: grey;
 }
+
+.profileImage {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-position: center center;
+  background-size: cover;
+  background-image: url(assets/profile.jpg);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
