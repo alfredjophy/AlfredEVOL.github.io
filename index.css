@@ -1,9 +1,12 @@
 body {
-  background-color: black;
-  color: grey;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+
 }
 
 .profileImage {
+  margin-top: 10%;
   height: 300px;
   width: 300px;
   border-radius: 50%;
