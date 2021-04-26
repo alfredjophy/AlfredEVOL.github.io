@@ -23,4 +23,7 @@ body {
 .inverted-svg{
   -webkit-filter: invert(100%);
   filter: invert(100%);
+  filter: brightness(100000);
+  -webkit-filter: brightness(100000);
+
 }
