@@ -1,6 +1,7 @@
 :root {
     --matrix-logo: url("https://matrix.org/images/matrix-logo.svg");
     --github-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/github.svg");
+    --brave-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/brave.svg");
 }
 
 body {
@@ -69,6 +70,28 @@ a {
     position: relative;
 }
 
+.what-i-use-flexbox {
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+
+.what-i-use-flexbox img {
+    margin: none;
+    width: 30vw;
+    height: auto;
+    padding: 5vw;
+    padding-top: none;
+    padding-bottom: none;
+}
+
+#v-page-3 {
+    min-height: 95vh;
+    height: auto;
+}
+
 @media screen and (min-width: 768px) {
     .profile-image {
         height: 40vh;
@@ -83,5 +106,17 @@ a {
     .full-screen-page {
         height: 95vh;
         width: 100%;
+    }
+    .what-i-use-flexbox {
+        direction: row;
+        flex-flow: row;
+        flex-wrap: wrap;
+        justify-content: none;
+    }
+    .what-i-use-flexbox img {
+        height: 120px;
+        width: auto;
+        margin: 20px;
+        padding: auto;
     }
 }
