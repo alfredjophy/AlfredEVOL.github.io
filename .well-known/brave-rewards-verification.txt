@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: alfredjophy.ml
+Token: a351fd9202161f24d00cd99c20580514d001aa7188b0bc54e42fecaf86a3ad79
