@@ -136,6 +136,6 @@ a {
         height: 120px;
         width: auto;
         margin: 20px;
-        padding: auto;
+        padding-bottom: 0;
     }
 }
