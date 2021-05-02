@@ -2,6 +2,17 @@
     --matrix-logo: url("https://matrix.org/images/matrix-logo.svg");
     --github-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/github.svg");
     --brave-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/brave.svg");
+    --fdroid-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/fdroid.svg");
+    --signal-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/signal.svg");
+    --element-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/element.svg");
+    --bitwarden-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/bitwarden.svg");
+    --tor-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/torbrowser.svg");
+    --protonmail-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/protonmail.svg");
+    --tutanotamail-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/tutanota.svg");
+    --mega-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/mega.svg");
+    --protonvpn-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/protonvpn.svg");
+    --linux-logo: url("https://www.pinclipart.com/picdir/middle/546-5468989_penguins-clipart-stencil-linux-black-and-white-png.png");
+    --netguard-logo: url("https://raw.githubusercontent.com/dkanada/frost/e3dc5726bf84e7450511b700e2e0f7cfce8296ec/icons/netguard.svg");
 }
 
 body {
@@ -80,11 +91,19 @@ a {
 
 .what-i-use-flexbox img {
     margin: none;
-    width: 30vw;
+    width: 20vw;
     height: auto;
     padding: 5vw;
     padding-top: none;
     padding-bottom: none;
+}
+
+.what-i-use-flexbox a {
+    text-align: center;
+}
+
+.app-titles {
+    color: cadetblue;
 }
 
 #v-page-3 {
