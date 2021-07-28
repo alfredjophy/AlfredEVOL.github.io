@@ -1,0 +1,42 @@
+#!/bin/bash
+# Global variables
+
+terminalCSS="https://unpkg.com/terminal.css@0.7.2/dist/terminal.min.css"
+otherCSS=$(find src/styles -iname "*.css")
+
+#functions 
+function build {
+        echo "building started $(pwd)"
+        local files=$(find src/pages/ -iname "*.md")
+
+        echo "$files"
+        echo "$otherCSS"
+
+        for i in $otherCSS;do
+                local filename=$(basename $i .css)
+                cp $i build/$filename.css
+                additionalCSS="$additionalCSS--css $filename.css "
+        done
+
+        for i in $files; do
+                local filename=$(basename $i .md)
+                echo "Building $filename"
+                pandoc $i -s -o build/$filename.html --css $terminalCSS $additionalCSS
+        done
+}
+
+# main
+if [[ -z $1 ]];then 
+        printf "project [options]\n\tbuild --builds the site from src/\n\tstart --locally deploy build/ in http://0.0.0.0/8000\n\tdeploy --builds and moves them into docs/\n"
+elif [[ $1 == "build" ]]; then 
+        build
+elif [[ $1 == "start" ]]; then
+        build   
+        python -m http.server --directory build/ 
+elif [[ $1 == "deploy" ]]; then
+        build
+        rm docs/*
+        cp build/* docs/
+fi
+
+
