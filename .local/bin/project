@@ -33,8 +33,9 @@ elif [[ $1 == "start" ]]; then
         python -m http.server --directory $_BASE_DIR/build/ 
 elif [[ $1 == "deploy" ]]; then
         build
-        rm docs/*
-        cp build/* docs/
+        rm $_BASE_DIR/docs/*
+        cp $_BASE_DIR/build/* $_BASE_DIR/docs/
+        echo "alfredjophy.ml" >> $_BASE_DIR/docs/CNAME
 else
         printf "project [options]\n\tbuild -- builds the site from src/\n\tstart -- locally deploy build/ in http://0.0.0.0/8000\n\tdeploy -- builds and moves them into docs/\n"
 fi
