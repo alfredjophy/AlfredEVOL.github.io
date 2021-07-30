@@ -14,7 +14,7 @@ and then losing my mind fixing everything i broke beause i was too lazy to read 
 Google , Apple , Microsoft , Adobe , **FACEBOOK** (*AHHHHHH!!!*) and every other proprietary , greedy , capitalist , data stealing , mind numbing companies, enterprises and ventures 
 
 ### > So , why am i doing this??
->well , i wanted website and made a simple one with _html and css_ and i lost my mind when i had to spends a few hours to center a freaking image.
+>well , i wanted a website and made a simple one with _html and css_ and i lost my mind when i had to spends a few hours to center a freaking image.
 So , i looked for something better - minimal , easy and fast. And i found _Markdown , [Pandoc](https://pandoc.org/) and [terminal.css](https://terminalcss.xyz/)_ and fell in love.<br/>
 You can checkout the source for this site in my [github](https://github.com/AlfredEVOL/AlfredEVOL.github.io).
 
