@@ -1,3 +1,4 @@
+
 ```sh
 $ Hello World!
 ```
@@ -18,8 +19,7 @@ Google , Apple , Microsoft , Adobe , **FACEBOOK** (*AHHHHHH!!!*) and every other
 So , i looked for something better - minimal , easy and fast. And i found _Markdown , [Pandoc](https://pandoc.org/) and [terminal.css](https://terminalcss.xyz/)_ and fell in love.<br/>
 You can checkout the source for this site in my [github](https://github.com/AlfredEVOL/AlfredEVOL.github.io).
 
-### > Whats next?
-> a lot of random posts , and more. I am too lazy to think right now. All of this took me 3 hours. A complete waste of time.
+### [Check out more](blog_1.html)
 
 ### > Wanna talk?
 * [**MATRIX**](https://matrix.to/#/@alfredjophy:matrix.org)
